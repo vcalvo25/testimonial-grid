@@ -47,6 +47,7 @@ body {
 .card {
     border-radius: 10px;
     padding: 20px 27px;
+    box-shadow: 0px 10px 10px 0px hsla(0, 0%, 81%, .4);
 }
 
 .kira {
@@ -175,7 +176,7 @@ img {
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1000px) {
     .grid-container {
         gap: 15px;
         margin-inline: auto;
@@ -205,7 +206,21 @@ img {
         padding-left: 35px;
         font-size: 13px;
     }
+}
     
+@media screen and (max-width: 1500px) {
+    .grid-container {
+        gap: 15px;
+        margin-inline: auto;
+        justify-content: center;
+        padding: 3rem;
+        width: 74%;
+        height: auto;
+}
 
+.card {
+    border-radius: 10px;
+    padding: 20px 25px 10px 25px;
+}
 
 }
