@@ -25,6 +25,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     margin-inline: auto;
+    margin-top: 100px;
     justify-content: center;
     padding: 3rem;
     width: 56.2%;
@@ -98,7 +99,7 @@ img {
     font-weight: 500;
 }
 
-#comment2 {
+#highlight-comment2 {
     color: var(--dark-grayish-blue);
     font-size: 18px;
     font-weight: 500;
@@ -106,14 +107,14 @@ img {
     line-height: 22px;
 }
 
-#main-review2 {
+#student-quote2 {
     color: hsla(217, 19%, 35%, .6);
     font-weight: 500;
     font-size: 12px;
     line-height: 16.5px;
 }
 
-#title2 {
+#student-title2 {
     color: hsla(217, 19%, 35%, .5);
     font-size: 10px;
 }
@@ -125,7 +126,7 @@ img {
     font-weight: 500;
 }
 
-#comment {
+#highlight-comment {
     color: var(--white);
     font-size: 18px;
     font-weight: 500;
@@ -133,13 +134,13 @@ img {
     line-height: 22px;
 }
 
-#main-review{
+#student-quote{
     color: hsla(0, 0%, 100%, .6);
     font-size: 12px;
     line-height: 17.5px;
 }
 
-#title {
+#student-title {
     color: hsla(0, 0%, 100%, 40%);
     font-size: 10px;
     padding-top: 0px;
