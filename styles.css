@@ -146,7 +146,7 @@ img {
     padding-top: 0px;
 }
 
-.daniel #comment {
+.daniel #highlight-comment {
     display: flex;
     position: relative;
 }
